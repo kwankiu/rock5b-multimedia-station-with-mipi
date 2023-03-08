@@ -43,6 +43,11 @@ Since MIPI DSI niether had a standard connector nor a universal display config l
 
 Notes : The Radxa LCD Display works because they have an adapter cable with the display and they have already packed the [overlay file](https://github.com/radxa/kernel/blob/stable-5.10-rock5/arch/arm64/boot/dts/rockchip/rk3588-rock-5b-radxa-10p1inch-display.dtsi) in radxa kernel. Check [this post](https://forum.radxa.com/t/mipi-display-support/12239) for more infomation.
 
+## IDEA 2 of this project - a 4K 60Hz / 2K 144Hz Capture Card + Remote Desktop
 
+### PLEASE NOTE THAT THIS IDEA IS ADDITIONAL, WE COULD PROBABLY ADD THIS IDEA AS A MODULE / PLUGIN
+### TO DO : CREATE ANOTHER REPO FOR IMPLEMENTING THIS IDEA.
+
+### THE IDEA IS SIMPLE, THIS IDEA ONLY REQUIRES SOFTWARE DEVELOPMENT (Part 1 : Capturing HDMI Input Source, Part 2. Encoding HDMI DATA to desired codec (likely HEVC for RK3588, since VP9 does not have fast enough HW Encoding @ 4K 60 FPS or 2K 144 FPS) for Streaming / Remote Desktop) & SOME OPTIONAL GPIO WIRING (to control power ON / OFF, an external "Wake-On-LAN" functionally for the PC to act as an alternative to the PC's WoL which brings extra stability and allows a power-OFF instead of only powering-ON the PC)
 
 To be written ...
