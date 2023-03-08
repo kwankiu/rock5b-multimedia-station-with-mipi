@@ -48,6 +48,6 @@ Notes : The Radxa LCD Display works because they have an adapter cable with the 
 ### PLEASE NOTE THAT THIS IDEA IS ADDITIONAL, WE COULD PROBABLY ADD THIS IDEA AS A MODULE / PLUGIN
 ### TO DO : CREATE ANOTHER REPO FOR IMPLEMENTING THIS IDEA.
 
-### THE IDEA IS SIMPLE, THIS IDEA ONLY REQUIRES SOFTWARE DEVELOPMENT (Part 1 : Capturing HDMI Input Source, Part 2. Encoding HDMI DATA to desired codec (likely HEVC for RK3588, since VP9 does not have fast enough HW Encoding @ 4K 60 FPS or 2K 144 FPS) for Streaming / Remote Desktop) & SOME OPTIONAL GPIO WIRING (to control power ON / OFF, an external "Wake-On-LAN" functionally for the PC to act as an alternative to the PC's WoL which brings extra stability and allows a power-OFF instead of only powering-ON the PC)
+THE IDEA IS SIMPLE, THIS IDEA ONLY REQUIRES SOFTWARE DEVELOPMENT (Part 1 : Capturing HDMI Input Source, Part 2. Encoding HDMI DATA to desired codec (likely HEVC for RK3588, since VP9 does not have fast enough HW Encoding @ 4K 60 FPS or 2K 144 FPS) for Streaming / Remote Desktop, Part 3. Boardcast a Remote Desktop Server (VNCServer or Sunshine (Moonlight))) & SOME OPTIONAL GPIO WIRING (to control power ON / OFF, an external "Wake-On-LAN" functionally for the PC to act as an alternative to the PC's WoL which brings extra stability and allows a power-OFF instead of only powering-ON the PC), OPTIONALLY, WE CAN ADD A WEB SERVER FOR A CONTROL PANEL / DASHBOARD.
 
 To be written ...
