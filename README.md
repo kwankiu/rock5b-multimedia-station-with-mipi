@@ -1,6 +1,6 @@
-# rock5b-multimedia-station-with-mipi
+# rock5b-multimedia-station
 
-Working on a project that uses the Rock 5B (RK3588) as a multi-purpose media station with MIPI DSI Output and HDMI IN to act as a Smart (4K) Projector
+Working on a project that uses the Rock 5B (RK3588) as a multi-purpose media station
 
 # Status
 - This project is currently just a concept/idea, if you are looking for a finished solution, this is not a place for it.
