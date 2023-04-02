@@ -10,7 +10,9 @@ Working on a project that uses the Rock 5B (RK3588) as a multi-purpose media sta
 # Brief idea and challenge of this Project
 Note : This project is a multi-purpose system that combines multiple ideas, it might be complicated to work on.
 
-## IDEA 1 of this project - a DIY 4K Projector
+## IDEA 1 of this project - a DIY 4K Projector (Deprecated)
+
+## we will no longer use rock 5B to drive our lcd display since rock 5B's DSI does not support 4K 60Hz, for the ease of use and to allows a wider compatibility, we will use hdmi output, that means our rock 5b will work like a topup box which can output to display such as TV, Monitor, or Projector.
 
 - First, The idea is insired by a YouTube Video [Building a TRUE 4k home cinema projector (it’s awesome)](https://www.youtube.com/watch?v=YfvTjQ9MCwY) by DIY Perks.
 
